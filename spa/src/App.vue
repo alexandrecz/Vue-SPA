@@ -4,6 +4,7 @@
     <router-view/>
     <router-link v-bind:to="'/'">Home</router-link>
     <router-link v-bind:to="'/about'">About</router-link>
+    <router-link v-bind:to="'/products'">Products</router-link>
   </div>
 </template>
 
