@@ -11,7 +11,7 @@
 
 <script>
   import ProductList from './Products'
-  import ShoppingCart from './Cart'
+  import ShoppingCart from './ShoppingCart'
 
   export default {
     name: 'Shopping',
