@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import About from '@/components/About'
-import Products from '@/components/Products'
+import Shopping from '@/components/Shopping'
 
 Vue.use(Router)
 
@@ -19,9 +19,9 @@ export default new Router({
       component: About
     },
     {
-      path: '/products',
-      name: 'Products',
-      component: Products
+      path: '/shopping',
+      name: 'Shopping',
+      component: Shopping
     }
 
   ]
